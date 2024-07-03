@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página 5 - Curiosidades del Cuerpo Humano</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="letra.css"> 
+</head>
+<body>
+  <main class="content-container">
+    <p>La lengua humana es el único músculo del cuerpo que está unido sólo por un extremo.</p>
+    <img src="img/salchipapa.png" alt="Lengua humana" style="width: 400px;">
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/cJZlSS0aKj8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <button id="back">Volver</button>
+  </main>
+  <script>
+    document.querySelector('#back').addEventListener('click', () => {
+      window.history.back();
+    });
+  </script>
+</body>
+</html>

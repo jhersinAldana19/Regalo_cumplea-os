@@ -1,0 +1,19 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+p {
+  font-family: 'Playfair Display', serif; /* Elegant serif font */
+  font-size: 24px; /* Larger font size */
+  line-height: 1.8; /* Increased line height for better readability */
+  color: #4A4A4A; /* Softer dark color for the text */
+  margin: 20px 0; /* Add some margin to space out the text */
+  text-align: justify; /* Justify the text for a cleaner look */
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif; /* Use Roboto for headings */
+  font-size: 32px; /* Large font size for headings */
+  color: #2C3E50; /* Darker color for the heading */
+  margin-bottom: 20px; /* Add margin below the heading */
+}

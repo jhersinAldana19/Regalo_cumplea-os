@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kit de Enfermera</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="kit-container">
+    <h1>Kit de Enfermera</h1>
+    <div class="kit-gallery">
+      <img src="img/h1.jpg" alt="Kit de Enfermera 1">
+      <img src="img/h2.jpg" alt="Kit de Enfermera 2">
+      <img src="img/h3.jpg" alt="Kit de Enfermera 3">
+      <img src="img/h4.jpg" alt="Kit de Enfermera 4">
+      <img src="img/h5.jpg" alt="Kit de Enfermera 5">
+    </div>
+    <button id="back">Volver</button>
+  </main>
+  <script>
+    document.querySelector('#back').addEventListener('click', () => {
+      window.history.back();
+    });
+  </script>
+</body>
+</html>
